@@ -17,14 +17,14 @@ cliArgs:
 routingServers:
   osrm:
     car:
-      host: '0.0.0.0'
-      port: '5000'
-    bike:
-      host: '0.0.0.0'
-      port: '5001'
-    foot:
-      host: '0.0.0.0'
+      host: 'osrm'
       port: '5002'
+    bike:
+      host: 'osrm'
+      port: '5003'
+    foot:
+      host: 'osrm'
+      port: '5004'
   ors:
     driving-car:
       host: '0.0.0.0/ors/v2'
